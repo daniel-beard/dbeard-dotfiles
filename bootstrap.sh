@@ -22,3 +22,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Misc utility installs
 ./other_installs.sh
+
+# Install atom.io packages
+./atom.sh
