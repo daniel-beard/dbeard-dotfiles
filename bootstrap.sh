@@ -17,3 +17,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Copy dotfiles
 ./copy_dotfiles.sh
+
+# Misc utility installs
+./other_installs.sh
