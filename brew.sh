@@ -79,6 +79,9 @@ brew cask install --appdir=/Applications seil
 brew cask install --appdir=/Applications karabiner
 brew cask install --appdir=/Applications julia
 
+# Add julia to path
+ln -fs "`ls /Applications/Julia*/Contents/Resources/julia/bin/julia`" /usr/local/bin/julia
+
 brew cask cleanup
 
 # Brew Fonts
