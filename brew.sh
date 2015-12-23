@@ -54,6 +54,7 @@ brew install ssh-copy-id
 brew install zeromq
 brew install pkg-config
 brew install python # also installs pip
+brew install gpg
 
 # Remove outdated versions from the cellar.
 brew cleanup

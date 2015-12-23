@@ -25,3 +25,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install atom.io packages
 ./atom.sh
+
+# Install RVM and ruby
+./rvm.sh
