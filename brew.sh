@@ -52,6 +52,8 @@ brew install pv
 brew install speedtest_cli
 brew install ssh-copy-id
 brew install zeromq
+brew install pkg-config
+brew install python # also installs pip
 
 # Remove outdated versions from the cellar.
 brew cleanup
@@ -75,6 +77,9 @@ brew cask install --appdir=/Applications sourcetree
 brew cask install --appdir=/Applications flux
 brew cask install --appdir=/Applications seil
 brew cask install --appdir=/Applications karabiner
+brew cask install --appdir=/Applications julia
+
+brew cask cleanup
 
 # Brew Fonts
 ##############################################

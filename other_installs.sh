@@ -8,3 +8,7 @@ set -ev
 echo "Installing Pathogen"
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
+# Install ipython
+echo "Installing IPython (Jupyter)"
+pip install "ipython[notebook]"
+
