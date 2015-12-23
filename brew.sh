@@ -80,6 +80,7 @@ brew cask install --appdir=/Applications flux
 brew cask install --appdir=/Applications seil
 brew cask install --appdir=/Applications karabiner
 brew cask install --appdir=/Applications julia
+brew cask install --appdir=/Applications p4merge
 
 # Add julia to path
 ln -fs "`ls /Applications/Julia*/Contents/Resources/julia/bin/julia`" /usr/local/bin/julia
