@@ -55,6 +55,7 @@ brew install zeromq
 brew install pkg-config
 brew install python # also installs pip
 brew install gpg
+brew install redis
 
 # Remove outdated versions from the cellar.
 brew cleanup
@@ -92,4 +93,9 @@ brew tap caskroom/fonts
 # Powerline patched font
 brew cask install font-inconsolata-for-powerline
 
+# Brew Services
+##############################################
 
+brew tap homebrew/services
+
+brew services start redis
