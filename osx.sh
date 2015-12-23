@@ -512,6 +512,15 @@ open "config/solarized-light.itermcolors"
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
+# Set fonts to powerline patched inconsolata
+/usr/libexec/PlistBuddy -c 'Set :"New Bookmarks":0:"Normal Font" InconsolataForPowerline 13' \
+    ~/Library/Preferences/com.googlecode.iterm2.plist
+/usr/libexec/PlistBuddy -c 'Set :"New Bookmarks":0:"Non Ascii Font" InconsolataForPowerline 13' \
+    ~/Library/Preferences/com.googlecode.iterm2.plist
+
+# Unlimited Scrollback
+/usr/libexec/PlistBuddy -c 'Set :"New Bookmarks":0:"Unlimited Scrollback" true' ~/Library/Preferences/com.googlecode.iterm2.plist
+
 ###############################################################################
 # Time Machine                                                                #
 ###############################################################################

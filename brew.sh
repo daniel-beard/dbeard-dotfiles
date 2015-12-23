@@ -72,6 +72,11 @@ brew cask install --appdir=/Applications bettertouchtool
 brew cask install --appdir=/Applications sourcetree
 brew cask install --appdir=/Applications flux
 
+# Brew Fonts
+##############################################
+brew tap caskroom/fonts 
 
+# Powerline patched font
+brew cask install font-inconsolata-for-powerline
 
 
