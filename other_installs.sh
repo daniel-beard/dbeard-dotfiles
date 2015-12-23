@@ -12,3 +12,6 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 echo "Installing IPython (Jupyter)"
 pip install "ipython[notebook]"
 
+# Install IJulia
+echo "Installing IJulia"
+julia -e 'Pkg.update(); Pkg.build("IJulia")'
