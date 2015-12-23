@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ev
+
 # Install brew
 #TODO: Check that brew is not already installed.
 command -v brew >/dev/null 2>&1 || { 
@@ -71,6 +73,8 @@ brew cask install --appdir=/Applications hipchat
 brew cask install --appdir=/Applications bettertouchtool
 brew cask install --appdir=/Applications sourcetree
 brew cask install --appdir=/Applications flux
+brew cask install --appdir=/Applications seil
+brew cask install --appdir=/Applications karabiner
 
 # Brew Fonts
 ##############################################

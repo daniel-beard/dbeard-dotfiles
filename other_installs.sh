@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -ev
+
 # This script installs some misc utils
 
 # Install pathogen
