@@ -56,6 +56,7 @@ brew install pkg-config
 brew install python # also installs pip
 brew install gpg
 brew install redis
+brew install ansible
 
 # Remove outdated versions from the cellar.
 brew cleanup
