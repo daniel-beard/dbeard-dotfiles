@@ -57,6 +57,8 @@ brew install python # also installs pip
 brew install gpg
 brew install redis
 brew install ansible
+brew install cmake
+brew install ninja
 
 # Remove outdated versions from the cellar.
 brew cleanup
