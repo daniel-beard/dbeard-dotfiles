@@ -86,6 +86,8 @@ brew cask install --appdir=/Applications julia
 brew cask install --appdir=/Applications p4merge
 brew cask install --appdir=/Applications dockertoolbox
 brew cask install --appdir=/Applications reveal
+brew cask install --appdir=/Applications disk-inventory-x
+brew cask install --appdir=/Applications graphviz
 
 # Add julia to path
 ln -fs "`ls /Applications/Julia*/Contents/Resources/julia/bin/julia`" /usr/local/bin/julia
